@@ -51,7 +51,7 @@ class_names = ["apple_pie",
 st.markdown("<h1 style='text-align: center; color: black;'>Food Recognition App!</h1>",
             unsafe_allow_html=True)
 st.write('---')
-st.write('This app is capable of recognizing 21 kinds of food')
+st.write('This app is capable of recognizing 20 kinds of food')
 st.write('This app is created by [Omar Osman]')
 st.write('---')
 
