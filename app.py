@@ -2,7 +2,7 @@ import tensorflow as tf
 import streamlit as st
 
 
-def load_and_prep_image(filename, img_shape=380, scale=True):
+def load_and_prep_image(filename, img_shape=224, scale=True):
     """
   Reads in an image from filename, turns it into a tensor and reshapes into
   (380, 380, 3).
